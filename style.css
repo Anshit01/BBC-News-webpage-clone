@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar-top {
+    height: 40px;
+    border-bottom: 1px #C9C9C8 solid;
+    
+}
+
+#navbar-top > div {
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#logo-bbc {
+    height: 100%;
+    width: fit-content;
+}
+
+#logo-bbc > img {
+    vertical-align: middle;
+    margin-top: 8px;
+
+}
+
+#header {
+    background-color: #BB1919;
+    width: 100%;
+}
+
+#header-mid {
+    width: 1000px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-news {
+    height: 36px;
+    padding: 10px 0px;
+    float: left;
+}
+
+#header-local-news-link:link {
+    text-decoration: underline;
+}
+
+#header-local-news-link:hover {
+    text-decoration: underline;
+}
+
+#header-local-news-link {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+
+#header-local-news {
+    float: right;
+    padding: 5px 15px;
+    border: 1px #c8c8c84d solid;
+    border-radius: 0px;
+    margin: 10px;
+}
+
+#header-bottom {
+    clear: both;
+    background-color: #A91717;
+
+}
+
+#navbar {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    overflow: auto;
+}
+
+#navbar > a {
+    float: left;
+}
+
+.navbar-item {
+    color: #fff;
+    font-size: 90%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar-item:not(.navbar-more):hover , .navbar-item.active {
+    padding-bottom: 6px;
+    border-bottom: 4px solid white;
+}
+
+.navbar-item > div {
+    padding: 0 15px ;
+    border-right: 1px solid #c8c8c860;
+}
+
+#navbar > a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+.navbar-more {
+    padding: 10px 15px;
+}
+
+.navbar-more:hover {
+    background-color: #000;;
+}
+
+.navbar-more > img {
+    float: right;
+    height: 18px;
+}
+
+
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topic {
+    font-size: 125%;
+    color: #444;
+    width: fit-content;
+    margin: 10px 0;
+    border-bottom: 3px solid #A91717;
+}
+
+#main-main {
+    float: left;
+    width: 65%;
+    height: 1000px;
+}
+
+#right-section {
+    float: right;
+    width: 34.9%;
+    height: 1000px;
+    border-left: 1px solid #ccc;
+}
