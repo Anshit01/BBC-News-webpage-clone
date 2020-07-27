@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #navbar-top {
@@ -81,7 +82,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 36px;
-    overflow: auto;
 }
 
 #navbar > a {
@@ -132,13 +132,14 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.4;
 }
 
 #topic {
     font-size: 125%;
     color: #444;
     width: fit-content;
-    margin: 10px 0;
+    margin: 5px 0;
     border-bottom: 3px solid #A91717;
 }
 
@@ -146,11 +147,78 @@ body {
     float: left;
     width: 65%;
     height: 1000px;
+    margin-right: 20px;
 }
 
 #right-section {
     float: right;
-    width: 34.9%;
+    width: 32.9%;
     height: 1000px;
     border-left: 1px solid #ccc;
+}
+
+#main a {
+    text-decoration: none;
+    color: #000;
+}
+
+#main a:hover {
+    color: rgb(36, 94, 200);
+}
+
+.abstract {
+    font-size: 90%;
+        color: #666;
+    }
+
+h1 {
+    margin: 10px 0;
+}
+
+.news-1 > div {
+    width: 36%;
+    margin-right: 4%;
+    float: left;
+}
+
+.news-1 img {
+    width: 60%;
+    float: right;
+}
+
+.time-category {
+    margin: 6px 0;
+    font-size: 85%;
+}
+
+.time {
+    color: #777;
+    padding: 0 5px 0 20px;
+    border-right: 1px solid #ccc;
+}
+
+#main .category > a {
+    color: #BB1919;
+
+}
+
+#main .category > a:hover {
+    color: rgb(36, 94, 200);
+}
+
+.divider {
+    width: 40px;
+    background-color: #BB1919;
+}
+
+.divider.thick {
+    height: 2px;
+}
+.divider.thin {
+    height: 1px;
+}
+
+.related {
+    font-size: 90%;
+    margin: 5px 0;
 }
