@@ -152,8 +152,10 @@ body {
 
 #right-section {
     float: right;
-    width: 32.9%;
+    width: 30%;
     height: 1000px;
+    padding-left: 20px;
+    margin-right: 9px;
     border-left: 1px solid #ccc;
 }
 
@@ -187,14 +189,22 @@ h1 {
 }
 
 .time-category {
-    margin: 6px 0;
-    font-size: 85%;
+    margin: 8px 0;
+    font-size: 90%;
 }
 
 .time {
     color: #777;
-    padding: 0 5px 0 20px;
+    padding: 0 5px 0 5px;
     border-right: 1px solid #ccc;
+}
+
+.time > img {
+    height: 14px;
+    width: 14px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
 }
 
 #main .category > a {
@@ -220,5 +230,39 @@ h1 {
 
 .related {
     font-size: 90%;
-    margin: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#right-section .heading {
+    font-size: 150%;
+
+}
+
+#right-section > .news > div {
+    padding-bottom: 20px;
+}
+
+#right-section > .news > a > img {
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+
+#right-section > .news > div {
+    float: left;
+    width: 55%;
+}
+
+h4 {
+    margin: 0;
+}
+
+#right-section > .news > div > .time {
+    width: fit-content;
+    font-size: 85%;
+}
+
+#right-section > .news > div > .category {
+    font-size: 85%;
 }
