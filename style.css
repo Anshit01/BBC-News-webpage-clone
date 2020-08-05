@@ -8,7 +8,6 @@ body {
 #navbar-top {
     height: 40px;
     border-bottom: 1px #C9C9C8 solid;
-    color: #444;
     font-size: 85%;
     font-weight: bold;
 }
@@ -24,16 +23,47 @@ body {
 .navbar-top-item {
     float: left;
     height: 100%;
-    padding: 0 10px;
-    border-right: 1px solid #888;
+    color: #444;
+    padding: 0 15px;
+    border-right: 1px solid #bbb;
 }
 
 .navbar-top-item > div {
-    margin-top: 10px;
+    margin: 12px 0;
 }
 
-#navbar-top > div > div > span {
+#search-box-container {
+    border: none;
+}
+
+#search-box {
+    background-color: #ddd;
+    margin: 8px;
+    overflow: hidden;
+}
+
+#search-box input {
+    width: 120px;
+    margin: 0;
+    border: none;
     font-weight: bold;
+    font-size: 90%;
+    background-color: inherit;
+    padding: 5px;
+    float: left;
+}
+
+#search-box button {
+    float: left;
+    background-color: inherit;
+    border: none;
+    height: 100%;
+}
+
+#search-box button > img {
+    height: 15px;
+    margin: 5px 0 0 0;
+    padding: 0;
 }
 
 #logo-bbc {
