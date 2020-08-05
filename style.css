@@ -8,7 +8,9 @@ body {
 #navbar-top {
     height: 40px;
     border-bottom: 1px #C9C9C8 solid;
-    
+    color: #444;
+    font-size: 85%;
+    font-weight: bold;
 }
 
 #navbar-top > div {
@@ -19,6 +21,21 @@ body {
 
 }
 
+.navbar-top-item {
+    float: left;
+    height: 100%;
+    padding: 0 10px;
+    border-right: 1px solid #888;
+}
+
+.navbar-top-item > div {
+    margin-top: 10px;
+}
+
+#navbar-top > div > div > span {
+    font-weight: bold;
+}
+
 #logo-bbc {
     height: 100%;
     width: fit-content;
@@ -27,8 +44,25 @@ body {
 #logo-bbc > img {
     vertical-align: middle;
     margin-top: 8px;
-
+    float: left;
 }
+
+#navbar-signin > div {
+    float: left;
+    height: 100%;
+}
+
+#navbar-signin > div > div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#navbar-signin > img {
+    float: left;
+    height: 30px;
+    padding: 5px 0;
+}
+
 
 #header {
     background-color: #BB1919;
